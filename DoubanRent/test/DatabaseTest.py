@@ -1,6 +1,6 @@
 import pymysql
 
-conn = pymysql.connect(host="119.29.41.246", user="batina", passwd="batina10+10=100", database="test_db1", charset='utf8mb4')
+conn = pymysql.connect(host="119.29.41.246", user="batina", passwd="batina10+10=100", database="spider", charset='utf8mb4')
 cursor = conn.cursor()
 cursor.execute("select * from t1")
 data = cursor.fetchall()

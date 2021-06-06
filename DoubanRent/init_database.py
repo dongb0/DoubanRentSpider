@@ -1,6 +1,6 @@
 import pymysql
 
-conn = pymysql.connect(host="119.29.41.246", user="batina", passwd="batina10+10=100", database="spider", charset='utf8mb4')
+conn = pymysql.connect(host="119.66.66.66", user="test-user", passwd="test-psw", database="test-database", charset='utf8mb4')
 cursor = conn.cursor()
 
 create_table_sql = '''create table if not exists rent(
